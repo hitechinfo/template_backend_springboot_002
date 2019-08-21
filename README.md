@@ -18,8 +18,8 @@ Mybatis를 활용하여 REST 기능만 구현한 템플릿 입니다.
 
 ### 개발가이드
 ※ 이 방법 외에도 편하신대로 하시면 됩니다.
-1. Mapper.xml에 쿼리 작성 (/src/main/resources/mappers)
-2. Dao 작성 (/src/main/java/com/skcc/backend/dao)
-3. Service 작성 (/src/main/java/com/skcc/backend/service)
-4. Controller 작성 (/src/main/java/com/skcc/backend/controller)
-5. Restlet을 통해 Controller에 맵핑된 URL 호출
+1. Mapper.xml에 쿼리 작성 (/src/main/resources/mappers/sampleMapper.xml 참고)
+2. Dao 작성 (/src/main/java/com/skcc/backend/dao/MainDao.java 참고)
+3. Service 작성 (/src/main/java/com/skcc/backend/service/MainService.java 참고)
+4. Controller 작성 (/src/main/java/com/skcc/backend/controller/MainController.java 참고)
+5. Restlet을 통해 Controller에 맵핑된 URL 호출 (GET http://localhost:3005/sample)
